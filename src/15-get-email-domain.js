@@ -7,6 +7,7 @@
  * @example
  * For the input 'prettyandsimple@example.com', the output should be 'example.com'
  *
+ *вернуть все.после собаки
  */
 function getEmailDomain(email) {
   const domen = email.slice(email.lastIndexOf('@') + 1);
